@@ -56,7 +56,7 @@ p{
 :root{
 	--orange: #e19000;
 	--grey: #F5F4F4;
-	--black: #FFFFFF;
+	--black: #000000;
 }
 
 html{
@@ -92,10 +92,19 @@ nav{
 } 
 
 footer{
+	position: relative;
+	height: 200px;
+	background-color: var(--black);
 }
 
 a{
 	text-decoration: none;
+	color: var(--orange);
+}
+
+a:hover{
+	text-decoration: none;
+	color: #b5832b;
 }
 
 
@@ -153,7 +162,6 @@ header .main-column ul li img {
 .container{
 	margin-top: 150px;
 	width: 100vw;
-	position: absolute;
 
 }
 
@@ -195,6 +203,21 @@ header .main-column ul li img {
 	padding-right: 3%;
 }
 
+#mappa{
+	margin-top: 200px;
+}
+
+#mappa-img{
+	margin-top: 10px;
+	width: 100%;
+}
+
+.content_block{
+	margin-bottom: 120px;
+}
+
+#iscrizione{
+}
 
 /*MOBILE*/
 
